@@ -2,8 +2,8 @@ public class Question3 {
 
     public static void main(String[] args){
 
-        boolean canSeePlayer;
-        boolean playerPoweredUp;
+        private boolean canSeePlayer = true;
+        private boolean playerPoweredUp = false;
 
         if (canSeePlayer) {
             if (!playerPoweredUp) {
